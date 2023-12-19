@@ -5,7 +5,7 @@ aptly repo create -distribution=bookworm -component=main beefbuild
 aptly repo add beefbuild DebVersions
 aptly publish drop bookworm
 aptly publish repo beefbuild
-mkdir Published
+mkdir Repo
 #hardcoded aptly directory
-cp -r /home/book/.aptly/public/dists/ Published/
-cp -r /home/book/.aptly/public/pool/ Published/
+cp -r /home/book/.aptly/public/dists/ Repo/
+cp -r /home/book/.aptly/public/pool/ Repo/
