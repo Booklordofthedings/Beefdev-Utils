@@ -1,0 +1,5 @@
+#!/bin/bash
+cd BeefDeb
+
+var=$(date '+%Y%m%d')
+dpkg-deb -b DebVersion/BeefBuild_0.43.4.${var}_amd64
