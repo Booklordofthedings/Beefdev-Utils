@@ -1,7 +1,8 @@
 Types: deb
 URIs: https://www.beefinstall.com/Repo
 Suites: bookworm
-Components: main
+Components: optional
+Architecture: amd64
 Signed-By:
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 .
