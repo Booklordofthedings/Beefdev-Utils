@@ -19,6 +19,7 @@ mkdir usr
 mkdir usr/bin
 #Create run file
 printf "#! /bin/bash\nexec /opt/BeefBuild/bin/BeefBuild \"\$@\"" > usr/bin/BeefBuild
+chmod a+x usr/bin/BeefBuild
 
 mkdir opt
 mkdir opt/BeefBuild
