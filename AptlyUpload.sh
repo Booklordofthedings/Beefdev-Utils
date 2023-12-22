@@ -1,7 +1,7 @@
 #!/bin/bash
 #This expects you to have aptly installed and doesnt install it for you
 
-aptly repo create -distribution=bookworm -component=optional beefbuild
+aptly repo create -distribution=bookworm -component=main beefbuild
 aptly repo add beefbuild DebVersions
 aptly publish drop bookworm
 aptly publish repo beefbuild
