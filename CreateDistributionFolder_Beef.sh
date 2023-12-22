@@ -39,10 +39,10 @@ cp ../Beef/IDE/dist/BeefBuild_d opt/BeefBuild/bin/
 cp ../Beef/IDE/dist/BeefDbgVis.toml opt/BeefBuild/bin/
 cp ../Beef/IDE/dist/libBeefRT.a opt/BeefBuild/bin/
 cp ../Beef/IDE/dist/libBeefRT_d.a opt/BeefBuild/bin/
-cp ../Beef/IDE/dist/libBeefSysLib.so opt/BeefBuild/bin/
-cp ../Beef/IDE/dist/libBeefSysLib_d.so opt/BeefBuild/bin/
+cp ../Beef/IDE/dist/libBeefySysLib.so opt/BeefBuild/bin/
+cp ../Beef/IDE/dist/libBeefySysLib_d.so opt/BeefBuild/bin/
 cp ../Beef/IDE/dist/libIDEHelper.so opt/BeefBuild/bin/
-cp ../Beef/IDE/dist/LibIDEHelper_d.so opt/BeefBuild/bin/
+cp ../Beef/IDE/dist/libIDEHelper_d.so opt/BeefBuild/bin/
 cp ../Beef/IDE/dist/Standard.dbgvis opt/BeefBuild/bin/
 
 sed "s/..\/..\//..\//" ../Beef/IDE/dist/BeefConfig.toml >> opt/BeefBuild/bin/BeefConfig.toml
