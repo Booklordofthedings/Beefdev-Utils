@@ -1,5 +1,5 @@
 Types: deb
-URIs: https://www.beefinstall.com/Repo
+URIs: https://beefinstall.com/Repo
 Suites: bookworm
 Components: optional
 Architecture: amd64
